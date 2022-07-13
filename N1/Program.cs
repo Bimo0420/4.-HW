@@ -20,7 +20,7 @@ namespace N1
             }
             else
             {
-                Console.WriteLine("Не верный ввод");
+                Console.WriteLine("Неверный ввод");
             }
             Console.ReadKey();//
         }
