@@ -22,7 +22,7 @@ namespace N1
             {
                 Console.WriteLine("Не верный ввод");
             }
-            Console.ReadKey();
+            Console.ReadKey();//
         }
     }
 }
