@@ -27,7 +27,7 @@ namespace N1
             {
                 Console.WriteLine("Неверный ввод");
             }
-            Console.ReadKey();//
+            Console.ReadKey();
         }
     }
 }
