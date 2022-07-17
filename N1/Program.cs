@@ -12,11 +12,16 @@ namespace N1
         {
             Console.WriteLine("Введите целое число N > 0");
             int n = Convert.ToInt32(Console.ReadLine());
+            int s = 0;
             if (n>0)
             {
-                for (int i = 1; i < n; i++)
+                for (int i = 1; i <= n; i++)
+                {
+                    s += 2 * i - 1;
+                    Console.WriteLine(s);
+                }
                 
-                Console.WriteLine("Квадрат чисел от 1 до {0} равен: {1}", n, i*i);
+                
             }
             else
             {
